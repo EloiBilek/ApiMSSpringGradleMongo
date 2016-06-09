@@ -1,5 +1,6 @@
 package com.apimsspringgradlemongo.model.service;
 
+import com.apimsspringgradlemongo.model.common.IOperations;
 import com.apimsspringgradlemongo.model.entity.User;
 
 /**

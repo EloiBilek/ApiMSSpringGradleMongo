@@ -1,4 +1,4 @@
-package com.apimsspringgradlemongo.model.service;
+package com.apimsspringgradlemongo.model.common;
 
 import java.util.List;
 

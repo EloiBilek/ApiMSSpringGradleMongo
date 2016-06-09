@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.apimsspringgradlemongo.controller;
+package com.apimsspringgradlemongo.resource;
 
 import java.util.List;
 
@@ -22,12 +22,12 @@ import com.apimsspringgradlemongo.model.service.IUserService;
  */
 @RestController
 @RequestMapping("/v1/users")
-public class UserController {
+public class UserResource {
 
 	@Autowired
 	private IUserService userService;
 
-	public UserController() {
+	public UserResource() {
 		super();
 	}
 
